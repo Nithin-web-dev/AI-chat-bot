@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [currentMessage, setCurrentMessage] = useState("");
 
-  const API_KEY = "your api key"; // Replace ur API key
+// Replace ur API key
   const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
   const sendMessage = async () => {
